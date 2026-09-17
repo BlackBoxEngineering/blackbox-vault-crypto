@@ -1,0 +1,57 @@
+{
+  "name": "blackbox-vault-crypto",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Standalone vault crypto primitives: multi-round PBKDF2, AES-GCM, HMAC-SHA256, CSPRNG. Pure Web Crypto API, zero dependencies. Extracted from BlackBox Wallet.",
+  "main": "src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "index.d.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "BlackBox Engineering",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackBoxEngineering/blackbox-vault-crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackBoxEngineering/blackbox-vault-crypto/issues"
+  },
+  "homepage": "https://github.com/BlackBoxEngineering/blackbox-vault-crypto#readme",
+  "keywords": [
+    "vault",
+    "crypto",
+    "pbkdf2",
+    "aes-gcm",
+    "hmac",
+    "sovereign",
+    "blackbox",
+    "web-crypto",
+    "encryption",
+    "key-derivation"
+  ],
+  "devDependencies": {
+    "vitest": "^4.0.9"
+  },
+  "dependencies": {}
+}
