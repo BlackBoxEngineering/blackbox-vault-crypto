@@ -1,6 +1,6 @@
 {
   "name": "blackbox-vault-crypto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Standalone vault crypto primitives: multi-round PBKDF2, AES-GCM, HMAC-SHA256, CSPRNG. Pure Web Crypto API, zero dependencies. Extracted from BlackBox Wallet.",
   "main": "src/index.js",
@@ -26,7 +26,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "author": "BlackBox Engineering",
   "license": "MIT",
